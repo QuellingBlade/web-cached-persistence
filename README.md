@@ -1,11 +1,20 @@
 # web-cached-persistence
 
+<<<<<<< HEAD
 Tools for Cookie Cache and Storage Cache.
 
 # Why?
 In some scenerio, we need to read local storage or cookie any and any.
 Sometimes, it is not necessary and a waste of system resource.
 This lib help to cache
+=======
+Tools for cookie and local storage cache.
+
+# Why?
+In some scenerio, we need to read local storage or cookie repeatedly.
+Sometimes, it is not necessary and a waste of system resource.
+This lib help to use Cookie and local storage with cache.
+>>>>>>> add readme
 
 # install and import
 
