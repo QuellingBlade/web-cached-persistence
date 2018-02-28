@@ -1,5 +1,5 @@
 {
-  "name": "cachedcookies",
+  "name": "web-cached-persistence",
   "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
@@ -9,16 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/njleonzhang/CachedCookies.git"
+    "url": "git+https://github.com/njleonzhang/web-cached-persistence.git"
   },
   "author": "njleonzhang",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/njleonzhang/CachedCookies/issues"
+    "url": "https://github.com/njleonzhang/web-cached-persistence/issues"
   },
-  "homepage": "https://github.com/njleonzhang/CachedCookies#readme",
+  "homepage": "https://github.com/njleonzhang/web-cached-persistence#readme",
   "devDependencies": {
-    "rollup-plugin-typescript": "^0.8.1",
     "ts-loader": "^4.0.0",
     "typescript": "^2.7.2"
   }
