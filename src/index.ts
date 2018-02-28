@@ -1,7 +1,7 @@
 import CachedCookie from './CachedCookie'
-import CachedStorages from './CachedStorages'
+import CachedStorage from './CachedStorage'
 
 export {
   CachedCookie,
-  CachedStorages
+  CachedStorage
 }
