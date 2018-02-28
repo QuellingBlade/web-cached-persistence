@@ -15,7 +15,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
   echo "Releasing $VERSION ..."
 
   # lint
-  npm run lint
+  # npm run lint
 
   # build
   VERSION=$VERSION npm run build
