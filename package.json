@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "rm -rf dist/*; webpack",
+    "build": "rm -rf dist/*; node_modules/webpack-cli/bin/webpack.js",
     "release": "./release.sh"
   },
   "repository": {
@@ -19,6 +19,8 @@
   "homepage": "https://github.com/njleonzhang/web-cached-persistence#readme",
   "devDependencies": {
     "ts-loader": "^4.0.0",
-    "typescript": "^2.7.2"
+    "typescript": "^2.7.2",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9"
   }
 }
