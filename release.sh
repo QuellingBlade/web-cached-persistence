@@ -14,20 +14,10 @@ echo
 if [[ $REPLY =~ ^[Yy]$ ]]; then
   echo "Releasing $VERSION ..."
 
-  # lint
-  # npm run lint
-
   # build
   VERSION=$VERSION npm run build
 
-  # revise version in doc
-  # echo "revising version in doc..."
-  # sed -i '' "s/vue-data-tables@\(.*\)\/dist/vue-data-tables@$VERSION\/dist/g" docs/index.html
-  # sed -i '' "s/<small>\(.*\)<\/small>/<small>$VERSION<\/small>/" docs/_coverpage.md
-
   # commit
-  git add docs
-  git commit -m "build: build $VERSION"
   npm version $VERSION --message "build: release $VERSION"
 
   # push
