@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
     "declaration": true,
+    "module": "es2015",
+    "target": "es5",
   }
 }

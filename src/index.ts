@@ -1,7 +1,2 @@
-import CachedCookie from './CachedCookie'
-import CachedStorage from './CachedStorage'
-
-export {
-  CachedCookie,
-  CachedStorage
-}
+export { default as CachedCookie } from './CachedCookie'
+export { default as CachedStorage } from './CachedStorage'

@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "rm -f dist/*; webpack",
+    "build": "rm -rf dist/*; webpack",
     "release": "./release.sh"
   },
   "repository": {
